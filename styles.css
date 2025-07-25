@@ -28,13 +28,15 @@ p {
     line-height: 1.35;
 }
 
-.beta-text { 
+.beta-text,
+.top-text,
+.subheading,
+.btn { 
     font-weight: 900;
 }
 
 .subheading {
-    color: #575757;
-    font-weight: 900;  
+    color: #575757;  
     margin-bottom: 0.5em;
 }
 
@@ -45,7 +47,6 @@ p {
 
 .top-text {
     font-size: 0.875rem;
-    font-weight: 900;
     padding-top: 0.25em;
     border-top: 5px solid;
     order: -1;
@@ -76,10 +77,10 @@ p {
 
 .intro { 
     justify-content: space-between;
-    min-height: 250px;
+    min-height: 330px;
     text-align: center;
     color: #fff;
-    background: #9480e4 url("images/intro-bg.png");
+    background: #9480e4 url("images/christian-thoni-Vc3YEOWQsQg-unsplash copy.jpg");
     background-size: cover;
     padding-bottom: 1.5em;
 }
@@ -91,6 +92,7 @@ p {
 .main-content {
     align-items: center;
     padding-top: 2.5em;
+    color: #00154E;
 }
 
 .img-main {
@@ -128,7 +130,6 @@ input:focus {
 
 .btn {
     text-transform: uppercase;
-    font-weight: 900;
     letter-spacing: 1px;
     padding: 1em 0;
     border: none;
@@ -137,7 +138,7 @@ input:focus {
 
 .btn-primary {
     color: white;
-    background-color: #8a71ec;
+    background-color: #00154E;
     margin-top: 1em;    
 }
 
@@ -150,7 +151,7 @@ input:focus {
     Media queries 
    ================= */
 
-@media (min-width: 576px) {
+@media (min-width: 830px) {
     body {
         display: flex;
     }
@@ -174,6 +175,8 @@ input:focus {
     
     .intro {
         min-height: 100vh;
+        background: #9480e4 url("images/christian-thoni-Vc3YEOWQsQg-unsplash.jpg");
+        background-size: cover;
     }
     
     .main-content {
