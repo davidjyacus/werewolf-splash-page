@@ -175,7 +175,7 @@ input:focus {
     
     .intro {
         min-height: 100vh;
-        background: #9480e4 url("images/christian-thoni-Vc3YEOWQsQg-unsplash.jpg");
+        background: url("images/christian-thoni-Vc3YEOWQsQg-unsplash.jpg");
         background-size: cover;
     }
     
