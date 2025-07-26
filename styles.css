@@ -80,7 +80,7 @@ p {
     min-height: 330px;
     text-align: center;
     color: #fff;
-    background: #9480e4 url("images/christian-thoni-Vc3YEOWQsQg-unsplash copy.jpg");
+    background: url("images/full-moon-forest copy.jpg");
     background-size: cover;
     padding-bottom: 1.5em;
 }
@@ -175,7 +175,7 @@ input:focus {
     
     .intro {
         min-height: 100vh;
-        background: url("images/christian-thoni-Vc3YEOWQsQg-unsplash.jpg");
+        background: url("images/full-moon-forest.jpg");
         background-size: cover;
     }
     
